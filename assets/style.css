@@ -1,0 +1,141 @@
+/* UTILITIES */
+<<<<<<< HEAD
+
+body {
+  background-color: #f1b00b;
+}
+
+#bg {
+  background-image: linear-gradient(#f1b00b, rgb(242, 109, 224));
+=======
+.border {
+  border-radius: 25px 65px;
+>>>>>>> 3c805d3 (change style)
+}
+
+#general-comm{
+  opacity: 0.5;
+} 
+
+/*  HOME */
+
+img {
+  width: 12em;
+}
+.padding {
+  padding-left: 12em !important;
+  padding-right: 12em !important;
+}
+
+.username {
+  margin-right: 10em !important;
+<<<<<<< HEAD
+  text-decoration: black !important;
+  text-transform: capitalize;
+  text-decoration: overline !important;
+=======
+  color: black !important;
+  text-transform: capitalize;
+>>>>>>> 3c805d3 (change style)
+}
+/* NAVBAR */
+.bg_user {
+  background-color: rgb(2, 227, 152);
+}
+.green {
+  color: rgb(4, 186, 65) !important;
+}
+.opacity {
+  opacity: calc(0.5);
+}
+.pointer {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* PROFILE */
+ 
+.img_profile {
+  border-radius: 60px;
+  width: 35%;
+  
+}
+
+.title_post {
+  text-align: center;
+  background-color: rgb(203, 254, 0);
+  width: 55%;
+<<<<<<< HEAD
+  border-radius: 15%;
+=======
+  border-radius: 15px;
+>>>>>>> 3c805d3 (change style)
+}
+
+/* Comment */
+
+.input-group {
+  position: relative;
+ }
+ .input {
+  padding: 10px;
+  border: 1px;
+<<<<<<< HEAD
+  border-radius: 5%;
+=======
+  border-radius: 5px;
+>>>>>>> 3c805d3 (change style)
+  font:lighter;
+  color:  #1c1b1d;
+  background-color: transparent;
+  outline: 1px solid rgb(210, 212, 243);
+  height: min-content;
+ }
+ .input-label {
+  position: absolute;
+  top: 64%;
+  left: 35%;
+  transform: translate(10px, 10px);
+  transition: transform .25s;
+  color: #d1c5fc;
+ }
+ .input:focus+.input-label,
+ input:valid+.input-label{
+  transform: translate(10px, -14px) scale(.8);
+  color: #d1c5fc;
+  padding-inline: 5px;
+  background-color: black;
+ }
+ .input:is(:focus, :valid) {
+  outline-color: #d1c5fc;
+ }
+
+/* Box Comment*/
+
+.box-comment {
+  border: 1px;
+  background-color: transparent;
+  border-radius: 10%;
+  box-shadow: 2px 5px black;
+  scrollbar-shadow-color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 200;
+  font-size: medium;
+}
+
+
+/* Media Queries */
+
+@media screen and (max-width: 499px) {
+  img {
+    width: 100%;
+  }
+}
+
+/* @media screen and (max-width: 550px) {
+   .icon {
+      display: flex;
+      flex: 25%;
+      justify-content: space-between;
+   }
+} */

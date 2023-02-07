@@ -1,0 +1,51 @@
+Creare una applicazione web simile ad Instagram (semplificata) con le seguenti caratteristiche:
+
+<<<<<<< HEAD
+1.   OK	No Registrazione Utente: utilizzare TUsers già creata 
+2.   OK	Login utente mediante inserimento Email /password   
+3.--	Quando utente ha fatto login può:
+3.1. OK	Pubblicare una immagine (upload  file) con un titolo (testo). 
+=======
+1.   	No Registrazione Utente: utilizzare TUsers già creata 
+2.   	Login utente mediante inserimento Email /password   
+3.	Quando utente ha fatto login può:
+3.1. 	Pubblicare una immagine (upload  file) con un titolo (testo). 
+>>>>>>> 3c805d3 (change style)
+        E’ necessario creare un TImages con i campi: ImageID int A_I, 
+        UserID int, FileName text, Titolo text, Eliminata int 
+        (valore predefinito zero). Le immagini per ora sono caricate 
+        manualmente.
+<<<<<<< HEAD
+3.2.--	Il campo Eliminata=1 significa che l’immagine è stata eliminata, 
+        0 significa che non è stata eliminata
+3.3. OK	Vedere in una tabella  le ultime 10 immagini pubblicate e non 
+=======
+3.2.	Il campo Eliminata=1 significa che l’immagine è stata eliminata, 
+        0 significa che non è stata eliminata
+3.3. 	Vedere in una tabella  le ultime 10 immagini pubblicate e non 
+>>>>>>> 3c805d3 (change style)
+        eliminate dagli utenti (ordinate in ordine decrescente di ImageID:
+        quindi per prime fa vedere le immagini pubblicate per ultime) con 
+        visualizzato: file  immagine dentro un tag img, titolo ed email 
+        dell’utente che l’ha pubblicata
+<<<<<<< HEAD
+4.   OK	Possibilità per un utente di eliminare una sua immagine (sql update 
+    che mette Eliminata=1): l’immagine non viene quindi realmente eliminata 
+    dal database e neppure a livello di file immagine.
+5.	Possibilità per un utente di modificare il titolo di una sua immagine 
+    (sql update)
+6. --	Facoltativo:
+6.1. OK	Possibilità per gli utenti di commentare l’immagine (serve una tabella che memorizza i commenti)
+6.2. !	Possibilità per gli utenti di mettere like su una foto (serve una tabella che memorizza i like)
+6.3. Ok	Pagina con la lista delle immagini che hanno più like (in ordine decrescente di somma like)
+=======
+4.   	Possibilità per un utente di eliminare una sua immagine (sql update 
+        che mette Eliminata=1): l’immagine non viene quindi realmente eliminata 
+        dal database e neppure a livello di file immagine.
+5.	Possibilità per un utente di modificare il titolo di una sua immagine 
+        (sql update)
+6. 	Facoltativo:
+6.1. 	Possibilità per gli utenti di commentare l’immagine (serve una tabella che memorizza i commenti)
+6.2. 	Possibilità per gli utenti di mettere like su una foto (serve una tabella che memorizza i like)
+6.3. 	Pagina con la lista delle immagini che hanno più like (in ordine decrescente di somma like)
+>>>>>>> 3c805d3 (change style)
